@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1b1717, #810000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1b1717, #810000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+.container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100%;
+  width: 40%;
+}
+
+.title-row {
+  background-color: #ce1212;
+  color: white;
+  font-size: 170%;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.plus-button {
+  text-align: right;
+}
+
+.input-row {
+  font-size: 140%;
+  padding: 2% 4%;
+}
+
+.content-row {
+  background-color: #eeebdd;
+  color: #404040;
+  font-size: 120%;
+  padding: 2% 2%;
+}
+
+.del-button {
+  color: #ce1212;
+  margin-right: 0;
+}
+
+.content {
+  text-align: left;
+  padding-left: 3%;
+}
+
+.hide {
+  display: none;
+}
